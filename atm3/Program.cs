@@ -31,3 +31,12 @@ class Program
         }
     }
 }
+class Account
+{
+    public int Id { get; set; }
+    public string FörstaNamn { get; set; }
+    public string Efternamn { get; set; }
+    public DateTime Födelsedag { get; set; }
+    public string Telefonnummer { get; set; }
+    public double Saldo { get; set; }
+}
